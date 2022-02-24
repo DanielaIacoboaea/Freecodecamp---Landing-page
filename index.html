@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="preload" as="image" href="blue-watch_small.jpg" type="image/jpg" width="690px" height="920px">
+        <link rel="preload" as="image" href="sw-fitness_small.jpg" type="image/jpg" width="640px" height="690px">
+        <link rel="preload" as="image" href="heart_health_small\ \(1\).jpg" type="image/jpg" width="196px" height="314px">
+        <link rel="preload" as="image" href="heart_health_medium.jpg" type="image/jpg" width="454px" height="596px">
+        <link rel="preload" as="image" href="images/display_top_small.png" type="image/png" width="1132px" height="76px">
+        <link rel="preload" as="image" href="images/sm-dispplay_small.jpg" type="image/jpg" width="1132px" height="419px">
+        <link rel="preload" as="image" href="images/apple_watch_medium.jpg" type="image/jpg" width="406px" height="693px">
+        <link rel="preload" as="image" href="images/apple_watch_green_medium.jpg" type="image/jpg" width="406px" height="693px">
+
+        <link rel="stylesheet" href="style.css">
+
+      <!-- <link rel="preload" as="image" href="wolf.jpg" imagesrcset="wolf_400px.jpg 400w, wolf_800px.jpg 800w, wolf_1600px.jpg 1600w" imagesizes="50vw"> -->
+
+
+        <title>Product Landing page</title>
+
+    </head>
+
+    <body>
+       <header id="header">
+           <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Apple_Watch_official_logo.svg" style="display: none;">
+          <a class="logo" href="index.html">
+             <img src="images/sm-logo.jpg" width="1200px" height="647px" alt="Apple Smartwatch icon"
+                style="width: 130px; height: auto;">
+          </a>
+            <input type="checkbox" id="nav-burger" class="nav-burger">
+            <label for="nav-burger" class="nav-burger-label">
+                <span></span>
+            </label>
+            <nav class="nav-list" id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#presentation_card">Apple Watch Series 7</a></li>
+                    <li><a class="nav-link" href="#watches_cards">Overview</a></li>
+                    <li><a class="nav-link" href="#overview">Why Apple Watch</a></li>
+                    <li class="buy_now"><a class="nav-link" href="#purchase">Buy now</a></li>
+                </ul>
+            </nav> 
+            <div class="nav-buy-button" id="nav_purchase">
+                <a class="nav-button" href="#purchase"><span>Buy now</span></a>
+            </div>
+       </header>
+
+       <main>
+            <section class="presentation_card wrapper" id="presentation_card">
+                <h1>New watch lorem ipsum</h1>
+                <div class="card-display card-left" id="left">
+                    <div>
+                        <h2>50% thicker front crystal.</h2><p> Morbi at odio in est maximus ultrices. Quisque ultrices nunc dolor, et mattis sem vestibulum vel. Morbi in consectetur nisi.</p>
+                    </div>
+                    <div class="card-left-arrow">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="card-display card-right">
+                    <div>
+                        <h2>Robust Geometry.</h2><p> Nulla quis arcu sed nisi mattis pellentesque. Vivamus eleifend justo et magna sodales maximus.</p>
+                        </div>
+                    <div class="card-right-arrow">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="card-display card-bottom">
+                    <div>
+                        <h2>Oled display.</h2><p> Maecenas condimentum iaculis tempor. Praesent blandit aliquet lectus. Maecenas nec magna euismod.</p>
+                    </div>
+                    <div class="card-bottom-arrow">
+                        <span></span>
+                    </div>
+                </div>
+                <img class="presentation_card-top-image" src="images/display_top_small.png" width="1132px" height="76px" alt="Smartwatch display top">
+                <img class="presentation_card-bottom-image" src="images/sm-dispplay_small.jpg" width="1132px" height="419px" alt="Smartwatch display top">
+
+            </section>
+
+            <section class="watches_cards wrapper-cards" id="watches_cards">
+                <div class="watches-card-one">
+                    <input type="checkbox" id="flip_checkbox" name="flip_checkbox">
+                    <label for="flip_checkbox" class="checkbox_label">
+                    <img src="images/control_point_black_medium.svg" width="36px" height="36px"></label>
+                    <h2>Works swimmingly in the <span>water</span>.</h2>
+                    <div class="card-one_flip_back">
+                        <h3>Works swimmingly in the water</h3>
+                        <p>Vestibulum tristique eros metus, in finibus magna dapibus eu, magna dapibus eu.</p>
+                    </div>
+                </div>
+                <div class="watches-card-two">
+                    <input type="checkbox" id="flip_checkbox-two" name="flip_checkbox-two">
+                    <label for="flip_checkbox-two" class="checkbox_label-two">
+                        <img class="img-checkbox-two" src="images/control_point_black_medium-two.svg" width="36px" height="36px"></label>
+                    <h2>The first fitness service powered by <span>Smart Watch</span>.</h2>
+                    <div class="card-two_flip_back">
+                        <h3>The first fitness service powered by Smart Watch</h3>
+                        <p>Aenean elementum ut nulla sed auctor. Nulla quis dignissim dui, quis varius urna. Pellentesque in neque quis ex suscipit tempus vel vel mauris.</p>
+                        <h3>Duis dapibus dolor risus, non semper mauris hendrerit amet.</h3>
+                    </div>
+                </div>
+                <div class="watches-card-three">
+                    <input type="checkbox" id="flip_checkbox-three" name="flip_checkbox-three">
+                    <label for="flip_checkbox-three" class="checkbox_label-three">
+                        <img src="images/control_point_white_36dp.svg" width="36px" height="36px"></label>
+                    <h2>Keep an eye on your <span>heart health</span>.</h2>
+                    <div class="card-three_flip_back">
+                        <h3>Keep an eye on your heart health</h3>
+                        <p>Curabitur tempus turpis tincidunt sollicitudin elementum. Sed eget lectus mattis, rutrum diam vel, condimentum tellus. Sed id pulvinar nibh.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="watch_series7_container">
+                
+                <article class="watch_series7_display">
+                    <p>Our largest display yet.</p>
+                    <h2>Over 50% more screen area than Series 3.</h2>
+                    <input type="radio" id="display-check-3" name="display-check-3/7" value="display-3">
+                    <label for="display-check-3" class="display-check-3_label">
+                        <h4>Series 3</h4>
+                    </label>
+                    <input type="radio" id="display-check-7" name="display-check-3/7" value="display-7" checked>
+                    <label for="display-check-7" class="display-check-7_label">
+                        <h4>Series 7</h4>
+                    </label>
+                    <img class="display-green" src="images/apple_watch_green_medium.jpg" width="406px" height="693px">
+                </article>
+                
+                <article class="watch_series7_overview" id="overview">
+                    <div class="overview-container">
+                        <div class="overview-container_item">
+                            <img src="images/siri_medium.jpg" width="452px" height="722px">
+                        </div>
+                        <div class="overview-container_item text">
+                            <p><span>The freedom of cellular.</span>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec gravida cursus arcu, sed convallis eros consequat eget.</p>
+                        </div>
+                        <div class="overview-container_item"> 
+                            <img src="images/red_3_medium.jpg" width="310px" height="502px">
+                        </div>
+                        <div class="overview-container_item text">
+                            <p><span>Wallet keeps it all in one place.</span> Sound as a pound. Vivamus sit amet lacus sed nisi dignissim ultrices vel suscipit risus. Class aptent taciti sociosqu ad litora, per inceptos himenaeos.</p>
+                        </div>
+                        <div class="overview-container_item">
+                            <img src="images/siri_medium.jpg" width="452px" height="722px">
+                        </div>
+                        <div class="overview-container_item text">
+                            <p><span>Siri. An answer for life’s questions.</span> Etiam eu orci eget metus tempor cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse vitae enim lobortis libero tempor rhoncus.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="purchase_card" id="purchase">
+               <div class="purchase_card-item"><h4>Smart watch studio</h4></div> 
+               <div class="purchase_card-item"><h2>Any case. Any strap. <br>Any style you want.</h2></div> 
+               <div class="purchase_card-item">
+                   <form action="https://www.freecodecamp.com/email-submit" id="form" autocomplete="off">
+                        <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                        <input class="nav-button" type="submit" id="submit" style="display: none;"> 
+                    </form>
+                </div>
+             <div class="nav-buy-button button-bottom">
+                <a class="nav-button" id="submit"href="https://www.freecodecamp.com/email-submit"><span>Submit</span></a>
+            </div>
+                <div class="purchase_card-item"><video id="video" width="400" height="320" autoplay loop muted>
+                    <source src="images/sm-watch-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+       </main>
+       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
