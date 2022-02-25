@@ -28,4 +28,4 @@
 
 #### Check out the result:
 
-![product-landing-page](Product-landing-page.png)
+![product-landing-page](images/Product-landing-page.png)
